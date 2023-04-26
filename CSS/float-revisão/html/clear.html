@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/clear.css">
+    <title>Clear</title>
+</head>
+<body>
+    <h2>Sem Clear</h2>
+        <div class="divi1">Divi1</div>
+        <div class="divi2">
+            Divi2 - note que divi2 está depois do divi1 no código HTML.
+            Entretanto uma vez que divi1 floats está configurado comop left, o texto divi2 ficará em volta do divi1.
+        </div>
+        <br><br>
+        <h2>Com Clear</h2>
+        <div class="divi3">divi3</div>
+        <div class="divi4">
+            Divi4 - Aqui, clear: left; move divi4 para baixo do divi3, que está com o, float configurado com left.
+            Isso acontece, porque a propriedade clear: left desabilita o float à esquerda.
+        </div>
+</body>
+</html>

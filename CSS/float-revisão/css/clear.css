@@ -1,0 +1,16 @@
+.divi1, .divi3 {
+    border: 2px solid #b60000;
+    float: left;
+    padding: 10px;
+}
+
+.divi2 {
+    border: 2px solid #008bcb;
+    padding: 10px;
+}
+
+.divi4 {
+    border: 2px solid #145400;
+    clear: both;
+    padding: 10px;
+}

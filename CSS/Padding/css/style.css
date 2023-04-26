@@ -1,0 +1,38 @@
+body {
+    background-color: #262737;
+    color: #e1e1e1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.box {
+    padding: 70px;
+    border: 2px solid #0051ff;
+    border-radius: 10px;
+}
+
+article {
+    text-align: center;
+}
+
+article p {
+    text-align: justify;
+}
+
+article .boxPadding {
+    Padding-top: 50px;
+    Padding-right: 30px;
+    Padding-bottom: 50px;
+    Padding-left: 80px;
+    border: 2px solid #006718;
+    border-radius: 10px;
+}
+
+.box1 {
+
+}
+
+.box2 .boxPadding {
+    border-radius: 0px 70px 0px 70px;
+    border: 2px solid #d50202;
+    padding: 25px 50px 75px 100px;
+}

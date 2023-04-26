@@ -1,0 +1,16 @@
+aside {
+    background-color: #a9ebf8;
+    border: 1px solid black;
+    float: right;
+    padding: 10px;
+    max-width: 260px;
+}
+
+aside h3 {
+    font-size: 14px;
+    margin-top: 0;
+}
+
+aside ol {
+    font-size: 12px;
+}

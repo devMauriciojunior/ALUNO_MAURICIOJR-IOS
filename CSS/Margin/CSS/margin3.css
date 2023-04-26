@@ -1,0 +1,27 @@
+body {
+    color: #fff;
+    background-color: #3d4650;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.nav {
+    margin: 25px 50px 70px 100px;
+    border: 1px solid #00b7ff;
+}
+
+.section {
+    margin: 25px 50px 75px;
+    border: 1px solid #ff2e54;
+}
+
+.article {
+    margin: 25px 50px;
+    border: 1px solid #ffde06;
+}
+
+.footer {
+    margin: 50px auto;
+    width: 75%;
+    border: 1px solid #1aff00;
+}

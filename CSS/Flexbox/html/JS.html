@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <style>
+        body {
+        background-color: #262737;
+        color: #e1e1e1;
+        }
+    </style>
+</head>
+<body>
+    <form name="Myform" onsubmit="validaForm()">
+        Nome: <input type="text" name="fname" id="nome" >
+        <input type="submit" value="cadastrar" >
+    </form>
+
+    <script>
+        alert("HELLO WOLRD")
+
+        function validaForm() {
+            let x = document.forms["Myform"]["fname"].value
+            if (x == "") {
+                alert("FAÇA UM CADASTRO!")
+            } else {
+                alert("CADASTRO FEITO")
+            }
+        }
+
+
+        // const n1 = parseInt(prompt('Insira um numero'))
+
+        // const n2 = parseInt(prompt('Insira outro numero'))
+        // const n3 = n1 + n2 
+
+        // alert(`${n3}`)
+
+    </script>
+</body>
+</html>

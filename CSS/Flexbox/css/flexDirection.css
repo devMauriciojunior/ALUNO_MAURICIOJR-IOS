@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #262737;
+    color: #e1e1e1;
+
+    line-height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.caixa {
+    background-color: #cbcbcb;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.caixa > div {
+    background-color: #00649b;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 2rem;
+}
