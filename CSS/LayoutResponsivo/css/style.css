@@ -13,7 +13,6 @@ body {
 
 main {
     max-width: 1100px;
-    height: 95vh;
     background-color: #354F52;
     margin: 0 auto;
 }
@@ -56,4 +55,17 @@ aside {
     background-color: #698d70;
     padding: 20px;
     flex: 70%;
+}
+
+.img, .img2 {
+    background-color: #fff;
+    margin: 20px 0px;
+    width: 200px;
+    height: 200px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #52796F;
 }
