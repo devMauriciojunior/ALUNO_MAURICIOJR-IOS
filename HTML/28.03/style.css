@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+    color: #7c98ec;
+    background-color: #002B5B;
+    font-family: cursive;
+}
+
+h1 {
+    color: rgb(19, 71, 92);
+    background-color: #6495ed;
+}
+
+h2 {
+    color: #0fb8b5;
+    background-color: #006400;
+}

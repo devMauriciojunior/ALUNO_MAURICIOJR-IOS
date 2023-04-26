@@ -1,0 +1,35 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+
+h1 {
+    font-size: 2em;
+    color: cadetblue;
+}
+
+h2 {
+    color: cornflowerblue;
+}
+
+#tituloPrincipal {
+    background-color: rgb(0, 63, 0);
+    color: white;
+    text-align: center;
+}
+
+.topico1 {
+    text-align: center;
+}
+
+.topico {
+    text-align: right
+}
+
+.papaum {
+    color: red;
+}
+
+.vrau {
+    text-align: justify
+}

@@ -1,0 +1,30 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: crimson;
+    text-decoration: underline;
+}
+
+.especial:hover {
+    background-color: rgb(5, 0, 80);
+    color: rgb(0, 139, 173);
+    text-decoration: none;
+}
+
+.especial::before {
+    content: '> ';
+}
+
+.especial::after {
+    content: ' <';
+}

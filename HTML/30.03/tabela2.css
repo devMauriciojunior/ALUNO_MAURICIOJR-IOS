@@ -1,0 +1,14 @@
+table {
+    border-style: solid;
+    border-color: brown;
+    border-width: 3px;
+    width: 500px;
+}
+    
+td, th {
+   
+    border-style: solid;
+    border-color: brown;
+    border-width: 3px;
+    width: 500px;
+}
