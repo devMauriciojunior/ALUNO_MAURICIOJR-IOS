@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2e4d30;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+}
+
+section {
+    background-color: #365939;
+    width: 90%;
+}
+
+#pai {
+    height: 130px;
+    gap: 10px;
+}
+
+.pai-one {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.pai-two {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pai-three {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pai-four {
+    display: flex;
+    justify-content: space-around;
+}
+
+.verde, .azul, .vermelho {
+    height: 100px;
+    width: 210px;
+}
+
+.verde {
+    background-color: #426e46;
+}
+
+.azul {
+    background-color: #558f5a;
+}
+
+.vermelho {
+    background-color: #7cb880;
+}
