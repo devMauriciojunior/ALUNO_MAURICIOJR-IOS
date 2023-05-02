@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap');
+
+
+:root {
+    --fontOpens: 'Open Sans', sans-serif;
+    --fontPlay: 'Playfair Display', serif;
+
+    --corMaisEscura: #0D1B2A;
+    --corEscura: #1B263B;
+    --corMeioTom: #415A77;
+    --corClara: #778DA9;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    font-family: var(--fontOpens);
+    height: 100vh;
+    background: url(../img/fundo1.jpg) no-repeat center / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+    z-index: 1;
+}
+
+header h1 {
+    font-size: 4rem;
+    margin: 20px 0;
+}
+
+header h2 {
+    font-size: 1.5rem;
+}
+
+header h3 {
+    margin: 30px 0;
+    font-size: 1.5rem;
+}
+
+header ul {
+    display: flex;
+    position: relative;
+}
+
+header ul::before {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 1px;
+    background-color: #fff;
+    top: 13px;
+    left: -25px;
+}
+
+header ul::after {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 1px;
+    background-color: #fff;
+    top: 13px;
+    right: -45px;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li:nth-child(2) {
+    border-inline: 1px solid #fff;
+    padding-inline: 10px;
+}
+
+nav {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    font-family: var(--fontOpens);
+    border-bottom: 1px solid var(--corClara);
+}
+
+nav > a {
+    font-size: 1.1rem;
+    color: var(--corEscura);
+}
+
+nav > h2 {
+    border: 3px solid var(--corEscura);
+    padding: 10px 20px;
+    color: var(--corEscura);
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+main > h2 {
+    font-size: 2.3rem;
+    font-family: var(--fontPlay);
+    color: var(--corMaisEscura);
+    margin: 50px;
+}
+
+main > p {
+    font-size: 1.2rem;
+    font-family: var(--fontOpens);
+    color: var(--corMaisEscura);
+    max-width: 600px;
+    text-align: center;
+}
+
+.elementos {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.elementos > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.elementos > div img {
+    width: 40px;
+    border-bottom: 3px solid var(--corEscura);
+    padding-bottom: 20px;
+}
+
+.elementos > div h3 {
+    font-family: var(--fontOpens);
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--corEscura);
+}
+
+.elementos-two {
+    background-color: var(--corMaisEscura);
+    height: 80vh;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+}
+
+.elementos-two .textos {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.elementos-two .textos h2 {
+    font-size: 2.5rem;
+    font-family: var(--fontPlay);
+    color: var(--corClara);
+    margin-bottom: 30px;
+}
+
+.elementos-two .textos p {
+    font-size: 1rem;
+    font-family: var(--fontOpens);
+    color: var(--corClara);
+}
+
+.elementos-two .textos button {
+    width: 150px;
+    padding: 7px 20px;
+    border-radius: 30px;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    font-family: var(--fontOpens);
+    font-size: .9rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--corMaisEscura);
+}
+
+.elementos-two .imgs {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.elementos-two :is(.linha1, .linha2, .linha3) {
+    width: 100%;
+    height: 30%;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.elementos-two img {
+    width: 160px;
+    height: 90px;
+}
