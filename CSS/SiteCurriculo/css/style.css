@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+:root {
+    --corEscura: #212A3E;
+    --corMedia: #394867;
+    --corClara: #b7c2d6;
+    --corMaisClara: #d0d0d0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1250px;
+    height: 100vh;
+    background-color: var(--corMaisClara);
+}
+
+.principal {
+    display: flex;
+}

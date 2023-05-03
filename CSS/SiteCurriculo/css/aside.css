@@ -1,0 +1,8 @@
+aside {
+    background-color: var(--corClara);
+    margin: 15px;
+    flex: 30%;
+    height: 70vh;
+    padding: 10px;
+}
+

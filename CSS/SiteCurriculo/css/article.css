@@ -1,0 +1,7 @@
+article {
+    background-color: var(--corClara);
+    margin: 15px;
+    flex: 70%;
+    height: 90vh;
+    padding: 10px;
+}
