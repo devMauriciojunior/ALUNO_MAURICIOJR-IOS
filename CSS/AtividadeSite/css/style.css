@@ -101,7 +101,6 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 15px;
     font-family: var(--fontOpens);
     border-bottom: 1px solid var(--corClara);
 }
@@ -111,10 +110,15 @@ nav > a {
     color: var(--corEscura);
 }
 
+nav > a:hover {
+    color: var(--corClara);
+}
+
 nav > h2 {
     border: 3px solid var(--corEscura);
     padding: 10px 20px;
     color: var(--corEscura);
+    cursor: pointer;
 }
 
 main {
@@ -153,6 +157,11 @@ main > p {
     justify-content: center;
     align-items: center;
     row-gap: 20px;
+    cursor: pointer;
+}
+
+.elementos > div:hover {
+    transform: scale(1.1);
 }
 
 .elementos > div img {
@@ -208,6 +217,12 @@ main > p {
     font-weight: 400;
     text-transform: uppercase;
     color: var(--corMaisEscura);
+    cursor: pointer;
+}
+
+.elementos-two .textos button:hover {
+    background-color: var(--corMeioTom);
+    color: var(--corClara);
 }
 
 .elementos-two .imgs {
