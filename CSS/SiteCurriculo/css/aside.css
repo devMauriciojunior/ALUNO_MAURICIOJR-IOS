@@ -3,13 +3,13 @@ aside {
     margin: 15px;
     flex: 30%;
     padding: 15px;
-    border-radius: 7px;
+    border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.700);
 }
 
 aside .Image {
     color: var(--corClara);
-    height: 300px;
+    height: 350px;
     background: url(../imgs/img-eu.jpg) no-repeat center / cover; 
     display: flex;
     align-items: flex-end;
@@ -46,6 +46,11 @@ aside .Image > h2 {
 
 /* SKILLS */
 
+.Skills {
+    border-bottom: 1px solid var(--corMedia);
+    padding: 15px;
+}
+
 .titulo {
     display: flex;
     margin: 20px 0px;
@@ -57,144 +62,85 @@ aside .Image > h2 {
     margin-left: 15px;
 }
 
-.Skills > .skill-text {
-    font-size: 1.2rem;
+.Skills > .skill-text,
+.Languages > .skill-text {
+    font-size: 1.1rem;
     font-weight: 400;
     color: var(--corEscura);
 }
 
-.Skills > .skill-grafico-one {
+.Skills > .Grafico {
     width: 95%;
     margin: 15px auto;
-    height: 25px;
+    height: 20px;
     border: 2px solid ;
     border-radius: 15px;
     position: relative;
 }
 
-.skill-grafico-one::before {
+.Grafico-one::before,
+.Grafico-two::before,
+.Grafico-three::before,
+.Grafico-four::before {
+    content: "";
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
+    background-color: var(--corEscura);
+    color: #fff;
+    top: 0;
+    bottom: 0;
+    border-radius: 15px;
+}
+
+.Grafico-one::before {
     content: "90%";
-    position: absolute;
-    text-align: center;
-    background-color: var(--corEscura);
-    color: #fff;
     width: 90%;
-    top: 0;
-    bottom: 0;
-    border-radius: 15px;
 }
-
-.Skills > .skill-grafico-two {
-    width: 95%;
-    margin: 15px auto;
-    height: 25px;
-    border: 2px solid ;
-    border-radius: 15px;
-    position: relative;
-}
-
-.skill-grafico-two::before {
+.Grafico-two::before {
     content: "80%";
-    position: absolute;
-    text-align: center;
-    background-color: var(--corEscura);
-    color: #fff;
     width: 80%;
-    top: 0;
-    bottom: 0;
-    border-radius: 15px;
 }
 
-.Skills > .skill-grafico-three {
-    width: 95%;
-    margin: 15px auto;
-    height: 25px;
-    border: 2px solid ;
-    border-radius: 15px;
-    position: relative;
-}
-
-.skill-grafico-three::before {
+.Grafico-three::before {
     content: "75%";
-    position: absolute;
-    text-align: center;
-    background-color: var(--corEscura);
-    color: #fff;
     width: 65%;
-    top: 0;
-    bottom: 0;
-    border-radius: 15px;
 }
-
-.Skills > .skill-grafico-four {
-    width: 95%;
-    margin: 15px auto;
-    height: 25px;
-    border: 2px solid ;
-    border-radius: 15px;
-    position: relative;
-}
-
-.skill-grafico-four::before {
-    content: "50%";
-    position: absolute;
-    text-align: center;
-    background-color: var(--corEscura);
-    color: #fff;
-    width: 50%;
-    top: 0;
-    bottom: 0;
-    border-radius: 15px;
+.Grafico-four::before {
+    content: "40%";
+    width: 40%;
 }
 
 /* LANGUAGES */
 
-.Languages > .skill-text {
-    font-size: 1.2rem;
-    font-weight: 400;
-    color: var(--corEscura);
+.Languages {
+    padding: 15px;
 }
 
-.Languages > .skill-graficoP {
+.Languages > .Grafico { 
     width: 95%;
     margin: 15px auto;
-    height: 25px;
+    height: 20px;
     border: 2px solid ;
     border-radius: 15px;
     position: relative;
 }
 
-.skill-graficoP::before {
+.Languages .GraficoPT::before,
+.GraficoEN::before {
     content: "";
     position: absolute;
     text-align: center;
     background-color: var(--corEscura);
     color: #fff;
-    width: 100%;
     top: 0;
     bottom: 0;
     border-radius: 15px;
 }
 
-.Languages > .skill-graficoE {
+.GraficoPT::before {
     width: 95%;
-    margin: 15px auto;
-    height: 25px;
-    border: 2px solid ;
-    border-radius: 15px;
-    position: relative;
 }
-
-.skill-graficoE::before {
-    content: "";
-    position: absolute;
-    text-align: center;
-    background-color: var(--corEscura);
-    color: #fff;
-    width: 30%;
-    top: 0;
-    bottom: 0;
-    border-radius: 15px;
+.GraficoEN::before {
+    width: 35%;
 }
-
-
