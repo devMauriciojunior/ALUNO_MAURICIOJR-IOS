@@ -2,7 +2,197 @@ aside {
     background-color: var(--corClara);
     margin: 15px;
     flex: 30%;
-    height: 70vh;
-    padding: 10px;
+    /* height: 70vh; */
+    padding: 15px;
+    border-radius: 7px;
 }
 
+aside .Image {
+    color: var(--corClara);
+    height: 300px;
+    background: url(../imgs/img-eu.jpg) no-repeat center / cover; 
+    display: flex;
+    align-items: flex-end;
+    border-radius: 7px;
+}
+
+aside .Image > h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    margin: 10px 20px ;
+}
+
+/* SOBRE MIM */
+
+.About-Me {
+    color: var(--corEscura);
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    grid-template-rows: 50px 50px 50px 50px;
+    align-items: center;
+    padding: 15px;
+    column-gap: 15px;
+    border-bottom: 1px solid var(--corMedia);
+}
+
+.About-Me .text h3 {
+    font-weight: 500;
+}
+
+.About-Me .icons {
+    display: grid;
+    place-items: center;
+}
+
+/* SKILLS */
+
+.titulo {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.titulo h2 {
+    color: var(--corEscura);
+    font-size: 1.5rem;
+    margin-left: 15px;
+}
+
+.Skills > .skill-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--corEscura);
+}
+
+.Skills > .skill-grafico-one {
+    width: 95%;
+    margin: 15px auto;
+    height: 25px;
+    border: 2px solid ;
+    border-radius: 15px;
+    position: relative;
+}
+
+.skill-grafico-one::before {
+    content: "90%";
+    position: absolute;
+    text-align: center;
+    background-color: var(--corEscura);
+    color: #fff;
+    width: 90%;
+    top: 0;
+    bottom: 0;
+    border-radius: 15px;
+}
+
+.Skills > .skill-grafico-two {
+    width: 95%;
+    margin: 15px auto;
+    height: 25px;
+    border: 2px solid ;
+    border-radius: 15px;
+    position: relative;
+}
+
+.skill-grafico-two::before {
+    content: "80%";
+    position: absolute;
+    text-align: center;
+    background-color: var(--corEscura);
+    color: #fff;
+    width: 80%;
+    top: 0;
+    bottom: 0;
+    border-radius: 15px;
+}
+
+.Skills > .skill-grafico-three {
+    width: 95%;
+    margin: 15px auto;
+    height: 25px;
+    border: 2px solid ;
+    border-radius: 15px;
+    position: relative;
+}
+
+.skill-grafico-three::before {
+    content: "75%";
+    position: absolute;
+    text-align: center;
+    background-color: var(--corEscura);
+    color: #fff;
+    width: 65%;
+    top: 0;
+    bottom: 0;
+    border-radius: 15px;
+}
+
+.Skills > .skill-grafico-four {
+    width: 95%;
+    margin: 15px auto;
+    height: 25px;
+    border: 2px solid ;
+    border-radius: 15px;
+    position: relative;
+}
+
+.skill-grafico-four::before {
+    content: "50%";
+    position: absolute;
+    text-align: center;
+    background-color: var(--corEscura);
+    color: #fff;
+    width: 50%;
+    top: 0;
+    bottom: 0;
+    border-radius: 15px;
+}
+
+/* LANGUAGES */
+
+.Languages > .skill-text {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--corEscura);
+}
+
+.Languages > .skill-graficoP {
+    width: 95%;
+    margin: 15px auto;
+    height: 25px;
+    border: 2px solid ;
+    border-radius: 15px;
+    position: relative;
+}
+
+.skill-graficoP::before {
+    content: "";
+    position: absolute;
+    text-align: center;
+    background-color: var(--corEscura);
+    color: #fff;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    border-radius: 15px;
+}
+
+.Languages > .skill-graficoE {
+    width: 95%;
+    margin: 15px auto;
+    height: 25px;
+    border: 2px solid ;
+    border-radius: 15px;
+    position: relative;
+}
+
+.skill-graficoE::before {
+    content: "";
+    position: absolute;
+    text-align: center;
+    background-color: var(--corEscura);
+    color: #fff;
+    width: 30%;
+    top: 0;
+    bottom: 0;
+    border-radius: 15px;
+}
