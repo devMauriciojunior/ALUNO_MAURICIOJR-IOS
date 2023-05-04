@@ -21,10 +21,15 @@ body {
 main {
     margin: 0 auto;
     max-width: 1250px;
-    height: 100vh;
     background-color: var(--corMaisClara);
 }
 
 .principal {
     display: flex;
+}
+
+@media (max-width: 600px) {
+    .principal {
+        flex-direction: column;
+    }
 }

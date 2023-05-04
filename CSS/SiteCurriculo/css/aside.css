@@ -2,9 +2,9 @@ aside {
     background-color: var(--corClara);
     margin: 15px;
     flex: 30%;
-    /* height: 70vh; */
     padding: 15px;
     border-radius: 7px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.700);
 }
 
 aside .Image {
@@ -196,3 +196,5 @@ aside .Image > h2 {
     bottom: 0;
     border-radius: 15px;
 }
+
+
