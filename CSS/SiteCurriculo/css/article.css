@@ -5,5 +5,47 @@ article {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.700);
+}
 
+.titulo-Work {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    margin: 10px 0px 0px 10px;
+}
+
+.titulo-Work > h2 {
+    color: var(--corEscura);
+    font-weight: 400;
+}
+
+.Works {
+    padding: 30px 10px;
+}
+
+.Works:not(:last-child) {
+    border-bottom: 1px solid var(--corMedia);
+}
+
+.Works > h3 {
+    color: var(--corEscura);
+    font-size: 1.1rem;
+}
+
+span {
+    color: var(--corEscura);
+    font-weight: 500;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+span > img {
+    margin-right: 15px;
+}
+
+.Works p {
+    font-size: .9rem;
+    font-weight: 500;
 }

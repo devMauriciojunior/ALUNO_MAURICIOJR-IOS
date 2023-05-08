@@ -1,6 +1,5 @@
 footer {
     background-color: var(--corMedia);
-    /* height: 100px; */
     padding: 30px;
     display: flex;
     flex-direction: column;
@@ -12,6 +11,7 @@ h4 {
     color: var(--corClara);
     font-size: 1.3rem;
     margin-bottom: 15px;
+    text-align: center;
 }
 
 ul {
