@@ -4,7 +4,7 @@
     --corEscura: #212A3E;
     --corMedia: #394867;
     --corClara: #b7c2d6;
-    --corMaisClara: #d0d0d0;
+    --corMaisClara: #d2ddff;
 }
 
 * {
@@ -16,12 +16,12 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    background-color: var(--corMaisClara);
 }
 
 main {
     margin: 0 auto;
     max-width: 1250px;
-    background-color: var(--corMaisClara);
 }
 
 .principal {
