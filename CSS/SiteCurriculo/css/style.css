@@ -28,6 +28,8 @@ main {
     display: flex;
 }
 
+
+
 @media (max-width: 700px) {
     .principal {
         flex-direction: column;
@@ -40,7 +42,7 @@ main {
     
 }
 
-@media (max-width: 350px) {
+@media (max-width: 340px) {
     aside .About-Me .text h3 {
         font-size: 13px;
     }

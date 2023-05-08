@@ -1,17 +1,22 @@
 article {
-    background-color: var(--corClara);
-    margin: 15px;
     flex: 70%;
-    padding: 15px;
+}
+
+/* SECTION WORKS */
+
+.Works-Section, 
+.Education-Section {
     border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.700);
+    background-color: var(--corClara);
+    margin: 15px;
+    padding: 30px;
 }
 
 .titulo-Work {
     display: flex;
     align-items: center;
     column-gap: 15px;
-    margin: 10px 0px 0px 10px;
 }
 
 .titulo-Work > h2 {
@@ -20,7 +25,7 @@ article {
 }
 
 .Works {
-    padding: 30px 10px;
+    padding: 30px 0px;
 }
 
 .Works:not(:last-child) {
@@ -46,6 +51,37 @@ span > img {
 }
 
 .Works p {
-    font-size: .9rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* SECTION EDUCATION */
+
+.Educations {
+    padding: 30px 0px;
+}
+
+.Educations:not(:last-child) {
+    border-bottom: 1px solid var(--corMedia);
+}
+
+.titulo-Education {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.titulo-Education > h2 {
+    color: var(--corEscura);
+    font-weight: 400;
+}
+
+.Educations > h3 {
+    color: var(--corEscura);
+    font-size: 1.1rem;
+}
+
+.Educations p {
+    font-size: 1rem;
     font-weight: 500;
 }
