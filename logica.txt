@@ -1,0 +1,54 @@
+let a = number
+let b = number
+let c = a + b
+
+imprimir (c)
+
+-------------------------------------------------
+
+Algoritimo Conversão em Dolar:
+	let dolar;
+	let real;
+	let conversao;
+
+	entrada:
+	receber dolar;
+
+	processamento:	
+	conversão = dolar * real
+
+	saida:
+	imprimir (conversao)
+
+
+--------------------------------------------------
+
+Escreva um programa que leia um valor em metros e imprima convertido em centimetros
+
+Algoritimo Metros em centimetros
+	let metros;
+	let conversao;
+
+	entrada:
+	receber metros
+
+	processamento:
+	conversao = metros * 100
+
+	saida:
+	imprimir (conversao)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
