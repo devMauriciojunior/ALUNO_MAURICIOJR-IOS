@@ -20,7 +20,7 @@
 
         function Converter() {
             conversão = parseInt(dolar.value).toFixed(2) * real
-            resultado.innerHTML = conversão
+            resultado.innerHTML = conversão.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })
         }
     </script>
 </body>
