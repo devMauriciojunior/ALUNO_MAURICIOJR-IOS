@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Média</title>
+</head>
+<body>
+    <input type="number" name="" id="p1"> <br><br>
+    <input type="number" name="" id="p2"> <br><br>
+    <input type="number" name="" id="p3"> <br><br>
+    <input type="number" name="" id="p4"> <br><br>
+    <button id="calcular" onclick="Calcular()">Calcular</button>
+    <h1 id="resultado">Resultado</h1>
+
+    <script>
+        let p1 = document.getElementById('p1');
+        let p2 = document.getElementById('p2');
+        let p3 = document.getElementById('p3');
+        let p4 = document.getElementById('p4');
+        let resultado = document.getElementById('resultado');
+        let soma;
+
+        function Calcular() {
+            soma = (parseInt(p1.value) + parseInt(p2.value) + parseInt(p3.value) + parseInt(p4.value)) / 4
+            resultado.innerHTML = soma
+        }
+
+    </script>
+</body>
+</html>

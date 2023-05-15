@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão</title>
+</head>
+<body>
+    <input type="number" name="" id="dolar"><br><br>
+    <input type="submit" value="Converter" onclick="Converter()">
+
+    <h1 id="resultado">Conversão</h1>
+
+    <script>
+        let dolar = document.getElementById('dolar');
+        let real = 4.91
+        let resultado = document.getElementById('resultado')
+        let conversão;
+
+        function Converter() {
+            conversão = parseInt(dolar.value) * real
+            resultado.innerHTML = conversão
+        }
+    </script>
+</body>
+</html>
