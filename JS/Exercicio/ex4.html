@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplicação</title>
+</head>
+<body>
+    <input type="number" name="" id="n1"> <br><br>
+    <input type="number" name="" id="n2"> <br><br>
+    <input type="number" name="" id="n3"> <br><br>
+    <input type="number" name="" id="n4"> <br><br>
+    <button id="calcular" onclick="Calcular()">Multiplicar</button>
+    <h1 id="resultado">Multiplicar</h1>
+
+    <script>
+        let p1 = document.getElementById('n1');
+        let p2 = document.getElementById('n2');
+        let p3 = document.getElementById('n3');
+        let p4 = document.getElementById('n4');
+        let resultado = document.getElementById('resultado');
+        let multiplicar;
+
+        function Calcular() {
+            multiplicar = parseInt(p1.value) * parseInt(p2.value) * parseInt(p3.value) * parseInt(p4.value)
+            resultado.innerHTML = multiplicar
+        }
+
+    </script>
+</body>
+</html>
