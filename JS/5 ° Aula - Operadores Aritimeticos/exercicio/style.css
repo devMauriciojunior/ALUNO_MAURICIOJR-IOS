@@ -1,0 +1,12 @@
+body {
+    background-color: #333;
+}
+
+.Principal {
+    margin: auto;
+    margin-top: 40px;
+    padding: 30px;
+    width: 500px;
+    text-align: center;
+    border: 1px solid crimson;
+}
