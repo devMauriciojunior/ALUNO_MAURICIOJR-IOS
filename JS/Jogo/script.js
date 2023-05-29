@@ -6,9 +6,9 @@ let mensagemHeroi = document.getElementById("Mensagem");
 
 function Enviar() {
     if (nomeHeroi.value == "") {
-        alert("----- Escreva seu nome!! -----");
+        alert("-----   Escreva seu nome!!   -----");
         return;
     }
-        mensagemHeroi.innerHTML = `Olá ${nomeHeroi.value}.
+        mensagemHeroi.innerHTML = `Olá <span>${nomeHeroi.value}</span>.
         <br> Seja bem-vindo ao jogo!`   
 }
