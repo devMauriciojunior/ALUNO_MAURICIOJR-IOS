@@ -10,5 +10,4 @@ function Maiordeidade(idade){
     return idade > 17;
 }
 
-console.log(filter(Maiordeidade))
 console.log(idade)
