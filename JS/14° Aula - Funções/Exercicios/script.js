@@ -9,4 +9,7 @@ let ParouImpar = (a) => {
         return 'Impar'
     }
 }
-ParouImpar()
+
+// Arrow function com operador ternário
+let ParouImpara = (a) => (a % 2 == 0 ? 'Par' : 'Impar');
+ParouImpara()
