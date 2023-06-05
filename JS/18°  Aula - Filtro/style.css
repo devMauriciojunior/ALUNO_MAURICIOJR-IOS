@@ -1,0 +1,48 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #091222;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container {
+    width: 60%;
+}
+
+#myInput {
+    width: 100%;
+    font-size: 1.3rem;
+    padding: 1rem .5rem;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: #3e597148;
+    color: #fff;
+    margin-bottom: 1rem;
+    border-radius: 7px;
+}
+
+#myUL {
+    list-style: none;
+}
+
+#myUL li a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 1rem .5rem;
+    display: block;
+}
+
+#myUL li a:hover {
+    background-color: #3e597177;
+    color: rgb(153, 255, 226);
+    transition: .3s;
+}
