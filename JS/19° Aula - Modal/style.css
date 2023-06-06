@@ -1,0 +1,70 @@
+body {
+    height: 97vh;
+    display: grid;
+    place-items: center;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.500);
+}
+
+.modal-content {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20%;
+    border: 1px solid #fff;
+    width: 60%;
+    height: 40%;
+    position: relative;
+    animation-name: animatetop;
+    animation-duration: 2s;
+}
+
+.modal-content p {
+    font-size: 1.5rem;
+}
+
+.close {
+    font-size: 2rem;
+    position: absolute;
+    top: -45px;
+    right: -25px;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: #fff;
+}
+
+#btn {
+    background-color: rgb(160, 17, 46);
+    color: #fff;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: rgb(193, 52, 80);
+    transform: scale(1.1);
+}
+
+@keyframes animatetop {
+    0% {
+        top: 100px;
+        opacity: 0;
+    }
+
+    100% {
+        top: 10px;
+        opacity: 1;
+    }
+}
