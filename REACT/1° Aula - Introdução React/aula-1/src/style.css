@@ -1,0 +1,9 @@
+.navegacao {
+    background-color: #650000;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
