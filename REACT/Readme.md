@@ -5,6 +5,7 @@
 ## Iniciar site: 
     npm start
 
-
 ## Toda função começa em letra maiuscula
-# Como chamar uma função dentro da Function App(): <NomedaFunção/>
+## Como chamar uma função dentro da Function App():
+    <NomedaFunção/>
+
