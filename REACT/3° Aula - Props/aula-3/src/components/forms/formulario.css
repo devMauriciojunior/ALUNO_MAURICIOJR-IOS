@@ -1,0 +1,14 @@
+.Formulario {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+
+.Formulario form {
+    max-width: 80%;
+    width: 80%;
+    background-color: #090e12;
+    border-radius: 7px;
+    padding: 2rem;
+}
