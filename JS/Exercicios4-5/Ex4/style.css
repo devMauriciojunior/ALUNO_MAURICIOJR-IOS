@@ -72,12 +72,12 @@ button:hover {
 }
 
 span.nome {
-    color: yellow;
+    color: rgb(178, 178, 0);
 }
 
 span.aprovado {
-    color: green;
+    color: rgb(0, 65, 0);
 }
 span.reprovado {
-    color: red;
+    color: rgb(157, 0, 0);
 }
