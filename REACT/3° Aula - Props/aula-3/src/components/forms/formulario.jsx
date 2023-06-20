@@ -1,6 +1,8 @@
 import CampoTexto from "./form";
 import "./formulario.css"
-import ListaSuspensa from "../listaSupensa/listaSuspensa"; 
+import ListaSuspensa from "../listaSupensa/listaSuspensa";
+import Botao from "../Botao/botao";
+
 
 function Formulario() {
     const Cargos = [
@@ -20,6 +22,10 @@ function Formulario() {
                 <CampoTexto label='Cargo' placeholder='Digite seu cargo..'/>
                 <CampoTexto label='Idade' placeholder='Digite sua idade..'/>
                 <ListaSuspensa itens={Cargos}/>
+
+                <Botao>
+                    Criar Card
+                </Botao>
             </form>
         </section>
     );

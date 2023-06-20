@@ -1,0 +1,23 @@
+div {
+    text-align: center;
+}
+
+button.botao {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #8e0009;
+    background-color: #c6c6c6;
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    padding: 7px 15px;
+    margin-top: 3rem;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.botao:hover {
+    color: #cc000e;
+    background-color: #929292;
+    padding-inline: 2rem;
+}

@@ -1,7 +1,6 @@
 import Banner from "./components/banner/banner";
-import "./components/banner/banner.css"
 import Formulario from "./components/forms/formulario";
-
+import "./components/banner/banner.css"
 
 function App() {
   return (
